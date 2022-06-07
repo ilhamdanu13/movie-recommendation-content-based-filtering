@@ -39,4 +39,26 @@ Actually, content based filtering has a weakness, namely the content itself. if 
 
 Looks like content-based recommendations don't work very well. If only based on the 'overview' is actually not enough to give a recommendation so it must be more specific what content is used as a measure.
 
+# Improve
 # Content: Multiple information -> Metadata soup
+Now I will try different content to improve the previous model. Because content based sees the similarity of content, then I will change the content, namely with multiple information.
+
+# Import Data
+In this case I use data with more complete features / columns. The dataset consists of 42277 rows and 6 columns. the columns are 'title', 'genres', 'cast', 'keywords', 'director', and the combined column is 'metadata'.
+
+# Recommend
+I took two examples of data to see the similarities. The sample data are index data 0 = Toy Story, index data 1 = Jumanji, and index data 579 = Home Alone.
+
+Sample movie Toy Story:
+
+![image](https://user-images.githubusercontent.com/86812576/172399102-8bf20143-e419-4333-b4c5-70fd1416fe05.png)
+
+Sample movie Jumanji:
+
+![image](https://user-images.githubusercontent.com/86812576/172399307-51c1af11-3138-4d1e-9223-77a26f6d66f9.png)
+
+Sample moive Home Alone:
+
+![image](https://user-images.githubusercontent.com/86812576/172399651-2fdd2af2-3260-4765-a2e0-d6967db6178c.png)
+
+It can be seen from the results above that the results of the recommendations are more relevant, it can be seen that there are similarities in the metadata. If you want to improve again, you can add a synopsis/overivew to the metadata.
