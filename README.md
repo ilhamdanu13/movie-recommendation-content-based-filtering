@@ -62,3 +62,5 @@ Sample moive Home Alone:
 ![image](https://user-images.githubusercontent.com/86812576/172399651-2fdd2af2-3260-4765-a2e0-d6967db6178c.png)
 
 It can be seen from the results above that the results of the recommendations are more relevant, it can be seen that there are similarities in the metadata. If you want to improve again, you can add a synopsis/overivew to the metadata.
+
+It turns out that by choosing a more in-depth content filter, it can produce a better recommendation system for a movie, and the content filter depends on creativity.
